@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+    <!--jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="../main.css">
+    <title>Document</title>
+    
+</head>
+<body>
+   
+    <!--navigation-->
+    <section>
+            <nav>
+                <div class="nav-wrapper">
+                  <a href="#!" class="brand-logo"><img src="https://cdn.freebiesupply.com/logos/large/2x/montreal-retro-logo-black-and-white.png" alt="logo"></a>
+                  <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                  <ul class="right hide-on-med-and-down">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./gallery.html">Gallery</a></li>
+                    <li><a href="/">Book a Session</a></li>
+                  </ul>
+                </div>
+            </nav>
+            
+              <ul class="sidenav" id="mobile-demo">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./gallery.html">Gallery</a></li>
+                <li><a href="/">Book a Session</a></li>
+              </ul>
+
+        
+    </section>
+
+    <!--booking form-->
+    <section class="book-section">
+      <div class="container">
+        <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s6">
+                  <input placeholder="enter your full name" id="full_name" type="text" class="validate" required>
+                  <label for="first_name">Full Name</label>
+                </div>
+                <div class="input-field col s6">
+                  <input id="last_name" type="number" placeholder="enter your phone number" class="validate" required>
+                  <label for="last_name">Phone Number</label>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="input-field col s6">
+                  <input placeholder="your home address" id="address" type="text" class="validate" required>
+                  <label for="first_name">Personal Address</label>
+                </div>
+                <div class="input-field col s6">
+                  <input id="date" type="date" class="validate" required>
+                  <label for="last_name">Date of Shoot</label>
+                </div>
+              </div>
+             
+              <div class="row">
+                <div class="input-field col s6">
+                  <input placeholder="where are we shooting" id="shootLocation" required type="text" class="validate">
+                  <label for="first_name">Location of shoot</label>
+                </div>
+                <div class="input-field col s6">
+                  <input required id="last_name" type="text" class="validate" placeholder="address of shoot location">
+                  <label for="last_name">Shoot Address</label>
+                </div>
+              </div>
+
+
+              <div class="row">
+                <div class="input-field col s6">
+                  <input id="email" required type="text" class="validate" placeholder="Birthday">
+                  <label for="email">Type of Shoot</label>
+                </div>
+              </div>
+
+             <p class="center-align">
+                <button type="submit" class="btn center-align">Book</button>
+             </p>
+              
+            </form>
+          </div>
+      </div>
+    </section>
+
+    <!--footer-->
+    <section class="footer">
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col l2 m2 s6">
+                  <img src="https://cdn.freebiesupply.com/logos/large/2x/montreal-retro-logo-black-and-white.png" alt="logo">
+                  <p>copyright <span class="copyrightYear"></span></p>
+              </div>
+              <div class="col l2 m2 s6">
+                  <ul>
+                      <li><a href="/">About</a></li>
+                      <li><a href="./gallery.html">Gallery</a></li>
+                      <li><a href="./book.html">Book a session</a></li>
+                  </ul>
+              </div>
+              <div class="col l2 m2 s6">
+                  <ul>
+                      <li><a href="/"><i class="fa fa-facebook-f"></i> Facebook</a></li>
+                      <li><a href="/"><i class="fa fa-twitter"></i> Twitter</a></li>
+                      <li><a href="/"><i class="fa fa-instagram"></i> Instagram</a></li>
+                  </ul>
+              </div>
+              <div class="col l2 m2 s6">
+                  <p><i class="fa fa-map-marker" aria-hidden="true"></i> <span>Millenium Monte Rose Al Barsha South</span> </p>
+              </div>
+              <div class="col l2 m2 s6">
+                  <p><a href="/"><i class="phone"></i> +2348104033007</a></p>
+              </div>
+              <div class="col l2 m2 s6">
+                  <p><a href="/"><i class="mail"></i> retpiece@mail.com</a></p>
+              </div>
+          </div>
+      </div>
+  </section>
+    <script src="../index.js"></script>
+</body>
+</html>
